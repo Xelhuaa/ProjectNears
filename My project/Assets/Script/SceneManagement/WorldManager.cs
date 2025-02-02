@@ -9,9 +9,9 @@ public enum SceneNames
     Gameplay,
 }
 
-public class PersistentSceneManager : MonoBehaviour
+public class WorldManager : MonoBehaviour
 {
-    public static PersistentSceneManager Instance;
+    public static WorldManager Instance;
     private SceneNames currentScene;
 
     private Dictionary<SceneNames, string> sceneNameMap = new Dictionary<SceneNames, string>
