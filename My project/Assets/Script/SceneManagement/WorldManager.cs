@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using System.Collections.Generic;
 
 public enum SceneNames
@@ -11,14 +10,7 @@ public enum SceneNames
 
 public class WorldManager : MonoBehaviour
 {
-    public static WorldManager Instance;
-    private SceneNames currentScene;
-
-    private Dictionary<SceneNames, string> sceneNameMap = new Dictionary<SceneNames, string>
-    {
-        { SceneNames.MainMenu, "MainMenu" },
-        { SceneNames.Gameplay, "Gameplay" }
-    };
+    public static WorldManager Instance { get; private set; }
 
     private void Awake()
     {
@@ -34,25 +26,11 @@ public class WorldManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        currentScene = SceneNames.MainMenu;
-    }
-
     public void LoadScene(SceneNames sceneName)
     {
-        if (currentScene != sceneName)
+        if (GameParameter.sceneNameMap.TryGetValue(sceneName, out string sceneToLoad))
         {
-            SceneManager.LoadSceneAsync(sceneNameMap[sceneName], LoadSceneMode.Additive).completed += (asyncOperation) =>
-            {
-                UnloadScene(currentScene);
-                currentScene = sceneName;
-            };
+            SceneManager.LoadScene(sceneToLoad);
         }
-    }
-
-    public void UnloadScene(SceneNames sceneName)
-    {
-        SceneManager.UnloadSceneAsync(sceneNameMap[sceneName], UnloadSceneOptions.UnloadAllEmbeddedSceneObjects);
     }
 }

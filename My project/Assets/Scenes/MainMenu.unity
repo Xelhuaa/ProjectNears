@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c162ff2d7e7c1744fb27b1a63eeb2f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiMainMenuPrefab: {fileID: 5946174171779626563, guid: 1b79f3390a62eb940b45661a9e6b9c4e, type: 3}
 --- !u!4 &191057608
 Transform:
   m_ObjectHideFlags: 0

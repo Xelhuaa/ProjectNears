@@ -409,6 +409,8 @@
 -analyzer:"D:/Unity Version/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/Unity Version/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/FMMainMenu/MainMenuManager.cs"
+"Assets/Script/FMMainMenu/UIMainMenu.cs"
+"Assets/Script/GameParameter.cs"
 "Assets/Script/SceneManagement/WorldManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
