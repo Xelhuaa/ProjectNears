@@ -1,0 +1,1088 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.36f1 (9fe3b5f71dbb) revision 10478517'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Version\6000.0.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/ProjectNear/ProjectNear/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52009
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Unity/ProjectNear/ProjectNear/My project
+D:/Unity/ProjectNear/ProjectNear/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31052]  Target information:
+
+Player connection [31052]  * "[IP] 171.1.26.12 [Port] 0 [Flags] 2 [Guid] 1943438344 [EditorId] 1943438344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GISFS93) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31052] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31052] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 756.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
+[Subsystems] Discovering subsystems at path D:/Unity Version/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/ProjectNear/ProjectNear/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity Version/6000.0.36f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Version/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Version/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Version/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002215 seconds.
+- Loaded All Assemblies, in  8.450 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 8820ms
+	BeginReloadAssembly (7914ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (7913ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (435ms)
+			TypeCache.Refresh (434ms)
+				TypeCache.ScanAssembly (421ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.586 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.983 seconds
+Domain Reload Profiling: 11568ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (10320ms)
+		LoadAssemblies (10158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (983ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (701ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4348 unused Assets / (1.1 MB). Loaded Objects now: 4881.
+Memory consumption went from 106.1 MB to 104.9 MB.
+Total: 11.248400 ms (FindLiveObjects: 0.954700 ms CreateObjectMapping: 1.602100 ms MarkObjects: 6.910100 ms  DeleteObjects: 1.779400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3504.903744 seconds.
+  path: Assets/Sun_Temple/Scenes/PrefabBuildingOverview.unity
+  artifactKey: Guid(0341178c4e71bbd4c8d5d119903d6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Scenes/PrefabBuildingOverview.unity using Guid(0341178c4e71bbd4c8d5d119903d6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4d8b8913c1c4a6a1584ea7e3c39fe4c') in 0.0391288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.449014 seconds.
+  path: Assets/Sun_Temple/PostProcessing
+  artifactKey: Guid(204c3a8d39c38d84eada8acc65b3886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/PostProcessing using Guid(204c3a8d39c38d84eada8acc65b3886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '475a21b7f6c63712a394703f6bb066a4') in 0.0005441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4256 unused Assets / (1.0 MB). Loaded Objects now: 4804.
+Memory consumption went from 92.0 MB to 91.0 MB.
+Total: 7.233200 ms (FindLiveObjects: 0.547300 ms CreateObjectMapping: 0.501900 ms MarkObjects: 5.012600 ms  DeleteObjects: 1.170000 ms)
+
+Prepare: number of updated asset objects reloaded= 21
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.821 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1673ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4263 unused Assets / (1.0 MB). Loaded Objects now: 4784.
+Memory consumption went from 91.7 MB to 90.7 MB.
+Total: 7.149500 ms (FindLiveObjects: 0.549300 ms CreateObjectMapping: 0.474800 ms MarkObjects: 4.500300 ms  DeleteObjects: 1.624200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.814882 seconds.
+  path: Assets/Sun_Temple/Content
+  artifactKey: Guid(17418a143a1a87e4badaf6ac03aba815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content using Guid(17418a143a1a87e4badaf6ac03aba815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5cf2dff9d3fceec7a52946262cb135') in 0.0049161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745874 seconds.
+  path: Assets/Sun_Temple/Content/Meshes
+  artifactKey: Guid(46cc593ddbc0f4947a47befdfd1b36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes using Guid(46cc593ddbc0f4947a47befdfd1b36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff25151f4f5cff6117a9641bfdd4a1b4') in 0.0006859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578080 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main
+  artifactKey: Guid(c3b33d3b101da9947a9cad4a9fadab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main using Guid(c3b33d3b101da9947a9cad4a9fadab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69f3c53d80ceb5043ed773738e6417b') in 0.00057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043553 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_A.fbx
+  artifactKey: Guid(e8b991a6dd15a654a84d11978952ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_A.fbx using Guid(e8b991a6dd15a654a84d11978952ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aca6c42faa68419b5b8854f4d67dd3ba') in 0.3885669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_A.fbx
+  artifactKey: Guid(5c63fe63ff384f441a9d48ccac79b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_A.fbx using Guid(5c63fe63ff384f441a9d48ccac79b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d8ad7f1855cb58fac3b85e01fe1b3b4') in 0.2475772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Mid.fbx
+  artifactKey: Guid(91614d87700e82b4db92f7ad23516b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Mid.fbx using Guid(91614d87700e82b4db92f7ad23516b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dedea779748011ef1685ae7b65caea4') in 0.4152161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_G.fbx
+  artifactKey: Guid(a0f658dae4aeeca40b0b5e2174ab655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_G.fbx using Guid(a0f658dae4aeeca40b0b5e2174ab655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d7c76794e6393907812b53d71dd398') in 0.5965357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_B_Hollow.fbx
+  artifactKey: Guid(23baab9229adfb741a58302a1fb8efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_B_Hollow.fbx using Guid(23baab9229adfb741a58302a1fb8efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '727c8a1b1fd7c9458500f0cdcbfe627b') in 0.0301791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_EntryStairs_A.fbx
+  artifactKey: Guid(a748f7c68083045429d4ff46373e5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_EntryStairs_A.fbx using Guid(a748f7c68083045429d4ff46373e5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e094665423b41e68be8bfefb26eec7a') in 0.3396357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Column_B.fbx
+  artifactKey: Guid(0756eeb83bab8fb4fb59c2e6febe28e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Column_B.fbx using Guid(0756eeb83bab8fb4fb59c2e6febe28e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa3d855333fab6247108a0451483c926') in 0.0282224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_C.fbx
+  artifactKey: Guid(49465aa292d7eed48a29751030f34666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_C.fbx using Guid(49465aa292d7eed48a29751030f34666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf65b440d10b8d7489493ae1abc051e') in 0.0414884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_C.fbx
+  artifactKey: Guid(028d952b014ce7e4fad28f910c0b6cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_C.fbx using Guid(028d952b014ce7e4fad28f910c0b6cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e5e98ef63da1dbf04c3a57e2c07caf') in 0.0496466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_D.fbx
+  artifactKey: Guid(3d96fc21457bc224e9d5f5504c49dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_D.fbx using Guid(3d96fc21457bc224e9d5f5504c49dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b1b8cd1d41b3a1c560d0fb84a190df5') in 0.055783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_EntryStairs_A.fbx
+  artifactKey: Guid(9e5cabba8c566e644b7ff48fcee980e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_EntryStairs_A.fbx using Guid(9e5cabba8c566e644b7ff48fcee980e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b58ce4907f1ae0b849fa94bc01f2d922') in 0.0457209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Column_A.fbx
+  artifactKey: Guid(85659279cebaa93429b6c6ba22922964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Column_A.fbx using Guid(85659279cebaa93429b6c6ba22922964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b31aea08775968bc5d6a8f1065dbf766') in 0.0253501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_D.fbx
+  artifactKey: Guid(39346558ba791224f92265c6fb15199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_D.fbx using Guid(39346558ba791224f92265c6fb15199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51a3413bfb5964bc4e3131f6c0f056bb') in 0.0371586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_EntryStairs_B.fbx
+  artifactKey: Guid(65d163628284d454cb469294ae01538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_EntryStairs_B.fbx using Guid(65d163628284d454cb469294ae01538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0df87032bde575ba1109bc74c123e4') in 0.0301226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_G.fbx
+  artifactKey: Guid(7cf9989952dd89949a54873a7a212383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_G.fbx using Guid(7cf9989952dd89949a54873a7a212383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e49bb7d22db62d487ac27650cad9a6b') in 0.0273336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_A.fbx
+  artifactKey: Guid(ac4faced6b704c54cad26ac81f959bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_A.fbx using Guid(ac4faced6b704c54cad26ac81f959bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d55615c110d7c87e87512c251ca1dd') in 0.0386692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_E.fbx
+  artifactKey: Guid(718585ea2b2b0e147b6cc9ddc8b492cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_E.fbx using Guid(718585ea2b2b0e147b6cc9ddc8b492cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fb4fcfae9a7392f668d17f1a57695e3') in 0.0223604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_C.fbx
+  artifactKey: Guid(9ebf2a338d3e321478fa72c52b73e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_C.fbx using Guid(9ebf2a338d3e321478fa72c52b73e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c84fd724c53553e8e943f81c2a146ab') in 0.0235772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_H.fbx
+  artifactKey: Guid(8ad1ecc7b918e5945be1e247ed4ca227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_H.fbx using Guid(8ad1ecc7b918e5945be1e247ed4ca227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47db3f90dc9fdc989d56e6b999a249bb') in 0.0234959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_A_Var.fbx
+  artifactKey: Guid(96efae405de83eb4282c6ffe22314caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cliff_A_Var.fbx using Guid(96efae405de83eb4282c6ffe22314caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce4973d0e3b0c7d3ee3f12bdd143c893') in 0.0223587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_B.fbx
+  artifactKey: Guid(fad1e98223b174a46ac628c5d187ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_B.fbx using Guid(fad1e98223b174a46ac628c5d187ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abae36d8bb3d46038d6b482771ae73eb') in 0.0357269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_A.fbx
+  artifactKey: Guid(f072cfab25400b94c9667d4bb98df54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_A.fbx using Guid(f072cfab25400b94c9667d4bb98df54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc365e81cc24e0acda6c47cdee6652c') in 0.1835192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_D.fbx
+  artifactKey: Guid(1542dafa30a267548b7ec9823fc39199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_D.fbx using Guid(1542dafa30a267548b7ec9823fc39199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9659a98d043cd1503169d3ad6a8b64ae') in 0.021251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_B.fbx
+  artifactKey: Guid(1df38e5bbed10d04abdd202b92fa466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Cloud_B.fbx using Guid(1df38e5bbed10d04abdd202b92fa466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3348fb81a73d755efe9151792c450e78') in 0.0212035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Base.fbx
+  artifactKey: Guid(88dd21745db7e9e4e9dc4add2b9967b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Base.fbx using Guid(88dd21745db7e9e4e9dc4add2b9967b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7313eb2b1a4d18a236b3a72a02f6ac23') in 0.0287153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_F_Hollow.fbx
+  artifactKey: Guid(a7fc9c4625cd2b54ea188d936568ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_F_Hollow.fbx using Guid(a7fc9c4625cd2b54ea188d936568ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75c6f2a830145ac2177532dc2c36766c') in 0.0653745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Door_B.fbx
+  artifactKey: Guid(b7bca2c39ab441441a3eb8bf4f6e6bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Door_B.fbx using Guid(b7bca2c39ab441441a3eb8bf4f6e6bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc4ca0581c5d645f4052104c03ea74b6') in 0.0383954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_G_Hollow.fbx
+  artifactKey: Guid(ef6841c778166514e813e80677c823e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_G_Hollow.fbx using Guid(ef6841c778166514e813e80677c823e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b094d0e1f44bc086e8d100935744dcc') in 0.0306385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Roof.fbx
+  artifactKey: Guid(e24327a9911789d4c95115619d593740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_DrainPipe_Roof.fbx using Guid(e24327a9911789d4c95115619d593740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0b37e09536704584ff8cc8fe75ed2ec') in 0.0290931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_A.fbx
+  artifactKey: Guid(d26654d58c9faba418d25357a231397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_A.fbx using Guid(d26654d58c9faba418d25357a231397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7ebea72f6eb04d27ccf671866dfbe4') in 0.0484713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_B.fbx
+  artifactKey: Guid(9783659c7220a52409cd220f41d199b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_B.fbx using Guid(9783659c7220a52409cd220f41d199b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff14346c645d1841511d1c056e4febca') in 0.0384374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_D.fbx
+  artifactKey: Guid(d4c298417d65fbf42a8060f7dfbaee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_D.fbx using Guid(d4c298417d65fbf42a8060f7dfbaee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4524271f03e7716759f4ca932d36527') in 0.0349222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_C.fbx
+  artifactKey: Guid(0559dc7f88ef9ce48905f0b1c95d78c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_C.fbx using Guid(0559dc7f88ef9ce48905f0b1c95d78c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a35b711712592ecaaa3f4d10c5d9f65') in 0.0244568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_D.fbx
+  artifactKey: Guid(e8d55d7720295484ea86525daf1cb6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_D.fbx using Guid(e8d55d7720295484ea86525daf1cb6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f968d1eed0edfab6ea44cda1c930e8a1') in 0.0241771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_B.fbx
+  artifactKey: Guid(4bcf6c850961ce14ebeb1c47dc0ebec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Deco_Chimney_B.fbx using Guid(4bcf6c850961ce14ebeb1c47dc0ebec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '679e1c617b285237b63049945816d5ea') in 0.0504572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_E.fbx
+  artifactKey: Guid(42bbdb3fd0d3c6e44bc3be5c1765ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_E.fbx using Guid(42bbdb3fd0d3c6e44bc3be5c1765ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '610f578e9256df8f055263a3ca579d47') in 0.0352627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_C.fbx
+  artifactKey: Guid(f1681e6a0a0f59f4e97f925ac6343244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Windowframe_Closed_C.fbx using Guid(f1681e6a0a0f59f4e97f925ac6343244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed3d4ecd39e5e158a16a6feca4b0cf4') in 0.0416146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_H.fbx
+  artifactKey: Guid(6fe33c724940440439dd063719ce199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bld_Common_Window_H.fbx using Guid(6fe33c724940440439dd063719ce199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7691a3d0e58c2b9746a806b77cece2e') in 0.0355163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_Mountains.fbx
+  artifactKey: Guid(0fc2fa41707c0d54c801800fa7a5345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_Mountains.fbx using Guid(0fc2fa41707c0d54c801800fa7a5345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a574b18ba465ed396cbf1f76bded3749') in 0.1883023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_B.fbx
+  artifactKey: Guid(9e8b4b85ed61eb241bd43fd6ac8d189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Bgr_DistantBuilding_B.fbx using Guid(9e8b4b85ed61eb241bd43fd6ac8d189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c5d55628fd1265d816e4913ef68d14') in 0.0248209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972118 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds
+  artifactKey: Guid(eff120b7dbd75474eb0414209b599734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds using Guid(eff120b7dbd75474eb0414209b599734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1853467ea6943ea603b73bb97a79e636') in 0.0006559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045308 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_A.prefab
+  artifactKey: Guid(ebebbcae990824a4b81d35bada1b8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_A.prefab using Guid(ebebbcae990824a4b81d35bada1b8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa617a34219e2a65cccc56eb8872d648') in 0.0213118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Mountains.prefab
+  artifactKey: Guid(1cf8d894487a9be41a5878bb030025a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Mountains.prefab using Guid(1cf8d894487a9be41a5878bb030025a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fcee435efdeedd9d37fd39adaed2587') in 0.0027201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_B.prefab
+  artifactKey: Guid(c283111e3b3bcbb49a4dafc204497213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_B.prefab using Guid(c283111e3b3bcbb49a4dafc204497213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edd31f91b6c80a73cc2fe27baa5ca6d0') in 0.0271549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_D.prefab
+  artifactKey: Guid(78dd1b369c546154aa79576f53105b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_D.prefab using Guid(78dd1b369c546154aa79576f53105b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b496a65c9a462292f858b21bcf3797db') in 0.0185867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_C.prefab
+  artifactKey: Guid(6f10cdcd2ad649a4ebba3ea93e00e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_C.prefab using Guid(6f10cdcd2ad649a4ebba3ea93e00e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '495d0f8cebeb7ffcd69665ba1c8b1844') in 0.0223032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_H.prefab
+  artifactKey: Guid(5619c247481018d4596cb93aadbf562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_H.prefab using Guid(5619c247481018d4596cb93aadbf562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12f5dcb7526d4232a479cb4a450fb860') in 0.022354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_ErrodedCliff_A.prefab
+  artifactKey: Guid(d91b45fc04d4b2342a2c1fb4faa50d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_ErrodedCliff_A.prefab using Guid(d91b45fc04d4b2342a2c1fb4faa50d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0906fdd12534f9520acd4eaf3fabe099') in 0.0337226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.974733 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed
+  artifactKey: Guid(c344cb67d4aee7b47b8e5dfe30a24f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed using Guid(c344cb67d4aee7b47b8e5dfe30a24f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b8f98f3be130293bba9ac196e77b1de') in 0.000678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039024 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Dome_A.prefab
+  artifactKey: Guid(9918a3172b0dc2241a3c59e06ab35f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Dome_A.prefab using Guid(9918a3172b0dc2241a3c59e06ab35f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0728b5dd4f31639c6373a337a40c79') in 0.5949432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_C.prefab
+  artifactKey: Guid(95df7f080571c104592b2c44dd069b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_C.prefab using Guid(95df7f080571c104592b2c44dd069b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c597aac5be4930e782e8ad979ec38166') in 0.6129421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 406
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_A_Hollow.prefab
+  artifactKey: Guid(3603a2c33fc769f42b99104b3b2c6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_A_Hollow.prefab using Guid(3603a2c33fc769f42b99104b3b2c6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '491803a601617d3c1ce29c053288b051') in 0.1233707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 271
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Medium_C_Hollow.prefab
+  artifactKey: Guid(8672f418c44f1d240bc68aefd766443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Medium_C_Hollow.prefab using Guid(8672f418c44f1d240bc68aefd766443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6916faf22cd09a119054b4c0585895') in 0.1199182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A_Interior_A.prefab
+  artifactKey: Guid(56b83d8f50549474ca03ca19fffd799d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A_Interior_A.prefab using Guid(56b83d8f50549474ca03ca19fffd799d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7fd15277d95d880a9deebedaadf5b81') in 1.1149595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2742
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Medium_A_Hollow.prefab
+  artifactKey: Guid(29f2b63a9605e834d8ba9cf5e49696a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Medium_A_Hollow.prefab using Guid(29f2b63a9605e834d8ba9cf5e49696a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '734eb35db7b184861b23bdf5d8aa8f5e') in 0.1343568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 369
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_B_Interior_A.prefab
+  artifactKey: Guid(50a8bc0d342915c4f9f5644e1e38a26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_B_Interior_A.prefab using Guid(50a8bc0d342915c4f9f5644e1e38a26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e1bf78eeee7831a6f2ab60ad6cb5a53') in 0.3194841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_A.prefab
+  artifactKey: Guid(6711ca4c8b548274db5fbdd12365bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_A.prefab using Guid(6711ca4c8b548274db5fbdd12365bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '024bd778742831b5cf2348a0f2d779ae') in 0.1134093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 591
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Interior_A.prefab
+  artifactKey: Guid(a47d5a7cdb311b242bed64d10900e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Interior_A.prefab using Guid(a47d5a7cdb311b242bed64d10900e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ced2948c987046a72e973b9d000ce74') in 0.1662973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1089
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Hollow.prefab
+  artifactKey: Guid(48d05d90ace0eae4da1923dbb025ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_LongTriangular_B_Hollow.prefab using Guid(48d05d90ace0eae4da1923dbb025ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34724c50b31661fc76f3ef1fb671cc50') in 0.1386541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 331
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A_Hollow.prefab
+  artifactKey: Guid(d4d735d52dbadc74486db01adf8c9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A_Hollow.prefab using Guid(d4d735d52dbadc74486db01adf8c9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16af3a5bda0fa952f86bf40d8a55030c') in 0.1116693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 409
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Rectangular_A_Interior_A.prefab
+  artifactKey: Guid(2378d4ba3f65fb94e9fc128dc9a9d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Rectangular_A_Interior_A.prefab using Guid(2378d4ba3f65fb94e9fc128dc9a9d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '873430eb564a67e37a9943cb6576b3a6') in 0.6506719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5595
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Temple.prefab
+  artifactKey: Guid(537f714a0a7039549960966aef600efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Temple.prefab using Guid(537f714a0a7039549960966aef600efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '363c9c0d76d891999ed225592a19b07a') in 0.9257797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13661
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_A.prefab
+  artifactKey: Guid(9c088ad58b1b0534fb16b61ded52b6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_A.prefab using Guid(9c088ad58b1b0534fb16b61ded52b6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea0d9eee456d0a651a10facb0756ed1') in 0.0292844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Rock_Facing_D.prefab
+  artifactKey: Guid(42d517adf3a964e43a5562963674a10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Rock_Facing_D.prefab using Guid(42d517adf3a964e43a5562963674a10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b3a0083ee682d1951fc6a965c1b3b6') in 0.026665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_A_Var.prefab
+  artifactKey: Guid(17f8b1ebd66b2fc4cb1be5866944774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_A_Var.prefab using Guid(17f8b1ebd66b2fc4cb1be5866944774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1899a043387653771db2d9defabbf08') in 0.0264863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Fol_Pine_A.prefab
+  artifactKey: Guid(842fbde1877460f4c9e58eaf6531a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Fol_Pine_A.prefab using Guid(842fbde1877460f4c9e58eaf6531a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c3a44de0c2f7ceb5af1113bded15feb') in 0.1327607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Fol_BushFlower_A.prefab
+  artifactKey: Guid(c13d061f4a850374188e9ab5e2ef832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Fol_BushFlower_A.prefab using Guid(c13d061f4a850374188e9ab5e2ef832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7509f47d4bd439ab042ab66b6e884f82') in 0.0187308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Hollow.prefab
+  artifactKey: Guid(5b568ce649a72bd4da0b413cc81c297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Hollow.prefab using Guid(5b568ce649a72bd4da0b413cc81c297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85401c973b3a03e44aeb1686b048ed54') in 0.0736436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 115
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Prop_Stone_Med_C.prefab
+  artifactKey: Guid(7d545c935d500524db82d27f523c98ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Prop_Stone_Med_C.prefab using Guid(7d545c935d500524db82d27f523c98ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c98a144b1bdfb1347c603ff63f1254') in 0.0227292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_TempleTower_B.prefab
+  artifactKey: Guid(bdd7fd4cc0cf1bd469f6f6f11df531ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_TempleTower_B.prefab using Guid(bdd7fd4cc0cf1bd469f6f6f11df531ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b91a6314627191888370ba22e319066f') in 0.082713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 271
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A.prefab
+  artifactKey: Guid(a8920ecfb011f4e4b92bb54d29c20d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_A.prefab using Guid(a8920ecfb011f4e4b92bb54d29c20d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ac53f59b292754bf179b419e7d87e3') in 0.1318458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 495
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_A_Hollow.prefab
+  artifactKey: Guid(74f1de459c13681498c8c88cb560bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Tall_A_Hollow.prefab using Guid(74f1de459c13681498c8c88cb560bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9c01d601e97b63dd4df1073501dea87') in 0.0889207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 461
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Prop_Stone_Med_D.prefab
+  artifactKey: Guid(6a408be3ece6ed947b06e320aeb2c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Prop_Stone_Med_D.prefab using Guid(6a408be3ece6ed947b06e320aeb2c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '430452a1d9807369f9b8c49fe0937a9c') in 0.0222375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_B_Hollow.prefab
+  artifactKey: Guid(0e1cd7084de20104ba1f1e6199c1d985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Square_B_Hollow.prefab using Guid(0e1cd7084de20104ba1f1e6199c1d985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b559847ecb225a829e4adfdb7c2e1378') in 0.1060034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 434
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_C.prefab
+  artifactKey: Guid(0b4df975bf91c3c4aa0142d09e1ece26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Natural/Bgr_Cliff_C.prefab using Guid(0b4df975bf91c3c4aa0142d09e1ece26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11459f339a7c39d959a2b60e116b7fc') in 0.0245108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874264 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props
+  artifactKey: Guid(553a988034a4eb6408b3b7ade93a643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props using Guid(553a988034a4eb6408b3b7ade93a643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '965ed35096e54571489fe5b3c03b16be') in 0.0006168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041547 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Apple_A.prefab
+  artifactKey: Guid(08a468d3721f9b442b4fdaf7f1aabb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Apple_A.prefab using Guid(08a468d3721f9b442b4fdaf7f1aabb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e7e23c92f888cda442262e8988ffa1') in 0.0172016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Beehive_A.prefab
+  artifactKey: Guid(a1c2639f47a963d4bb5fe4eacf839fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Beehive_A.prefab using Guid(a1c2639f47a963d4bb5fe4eacf839fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb40be2ef3c2fdd3cb20a97b3dc6f345') in 0.0202569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Bed_E.prefab
+  artifactKey: Guid(6d14b2d545d49fc4fb80106e92bc2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Bed_E.prefab using Guid(6d14b2d545d49fc4fb80106e92bc2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0074adc8f05ea80709ef7259e7007981') in 0.0266368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_B.prefab
+  artifactKey: Guid(2902e212c68388d4c8574293809001c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_B.prefab using Guid(2902e212c68388d4c8574293809001c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966c0f19319e025bc9972d9d3ac35afd') in 0.0321583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_Grouped_A.prefab
+  artifactKey: Guid(a7be51465b2e40a45b08d3c3d41d0275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_Grouped_A.prefab using Guid(a7be51465b2e40a45b08d3c3d41d0275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ca45ec1d24b1013cbfd4f7862664ae5') in 0.0214506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_Grouped_B.prefab
+  artifactKey: Guid(468b73b2e868ac14788af10cbba31f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_Grouped_B.prefab using Guid(468b73b2e868ac14788af10cbba31f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '040e13ae1505139a3eccbd0468c403a8') in 0.0248076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_C.prefab
+  artifactKey: Guid(9165ca6717e790f429ead259091ab707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_C.prefab using Guid(9165ca6717e790f429ead259091ab707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101217e2d9bbd807ac5921528e74c2f9') in 0.0414795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Book_B.prefab
+  artifactKey: Guid(c33c5ab2f845a9e43a1b1bbbcf7fa4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Book_B.prefab using Guid(c33c5ab2f845a9e43a1b1bbbcf7fa4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dacba3707b7c2d01cdfde685807a255') in 0.0187911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Bed_C.prefab
+  artifactKey: Guid(a35b05a2d47e84145b1ed41087397162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Bed_C.prefab using Guid(a35b05a2d47e84145b1ed41087397162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ea44858b267bfeff02c747ea6b99bc') in 0.0284852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_Base_A.prefab
+  artifactKey: Guid(efb63a8d522ef0f40a74953e77451420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_Base_A.prefab using Guid(efb63a8d522ef0f40a74953e77451420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c6abae1a2bc87003bbba36aaa4ec67c') in 0.0213488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Chair_D.prefab
+  artifactKey: Guid(575ecc0b21f60dc418175482cf125337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Chair_D.prefab using Guid(575ecc0b21f60dc418175482cf125337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e771d9e008b1b2b0244b14ce0584c6a') in 0.0229621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Candles_B.prefab
+  artifactKey: Guid(d13fb576f5aa0ac4a9b4cd9db48def44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Candles_B.prefab using Guid(d13fb576f5aa0ac4a9b4cd9db48def44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dabbd20bdae0425daaeef789558ca649') in 0.0167258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_Top_A.prefab
+  artifactKey: Guid(2ad9cc1b2652c6842bc974dc2a797e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_Top_A.prefab using Guid(2ad9cc1b2652c6842bc974dc2a797e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1acbc99a7c64ce4fbedc01a83e194f0c') in 0.0211959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Bed_D.prefab
+  artifactKey: Guid(da1c8a63344c7684390ae18c17e483fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Bed_D.prefab using Guid(da1c8a63344c7684390ae18c17e483fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '057546b0b6b461c8addf74694632973e') in 0.0314437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Bread_A.prefab
+  artifactKey: Guid(f5a2fc4c76410584a93d48f0fed31f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Bread_A.prefab using Guid(f5a2fc4c76410584a93d48f0fed31f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bac4f972650e40686404d73bb51c09a') in 0.019659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Candles_A.prefab
+  artifactKey: Guid(10e51c317f6368448bf456fd7b88de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Candles_A.prefab using Guid(10e51c317f6368448bf456fd7b88de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '019d4312e8cd5b2ff5ff90c591ecfff3') in 0.0135771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Basket_C.prefab
+  artifactKey: Guid(4da6f63128819c5489f4e0719573d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Basket_C.prefab using Guid(4da6f63128819c5489f4e0719573d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7d6fb43dc24a2be04750e27593b2189') in 0.020897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Chair_A.prefab
+  artifactKey: Guid(59e73689b03a00e40be37774e3c2e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Chair_A.prefab using Guid(59e73689b03a00e40be37774e3c2e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eea5ded9da6b7abe4f388861bcdc2529') in 0.0263098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_B.prefab
+  artifactKey: Guid(8fa1467ff74b5734db24b80cb3e22e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_B.prefab using Guid(8fa1467ff74b5734db24b80cb3e22e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae056c7566b61626cd57b8c0812a646a') in 0.0213745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_Bed_B.prefab
+  artifactKey: Guid(0959f410f2a44464b8d05306856285a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_Bed_B.prefab using Guid(0959f410f2a44464b8d05306856285a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02669f1cbe7f89be86fb10c7b63fbaf3') in 0.0239811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_E.prefab
+  artifactKey: Guid(88c71ab919a8a31458c033170fff5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_BookCase_E.prefab using Guid(88c71ab919a8a31458c033170fff5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d373e60a7de02cf393d14a2ede184d1') in 0.0268465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_D.prefab
+  artifactKey: Guid(86c261e9d7f84b543864e5a8efee6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Props/Prop_ClayPot_D.prefab using Guid(86c261e9d7f84b543864e5a8efee6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2462791e2a82f476d33c483e1ce768c') in 0.0222459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
